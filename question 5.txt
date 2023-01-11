@@ -1,0 +1,22 @@
+5. Steps you followed to connect github repo to your local repo.
+ans >
+Steps to connect github repo to local repo :
+1)First connect your local repo to github through ssh key by following this steps :-
+i)Create SSH Key in your pc , by writing commands in CMD on local machine - ssh-keygen.
+ii)Copy the SSH public key from local pc.
+iii)Then Open github account and open setting init.
+iv)In setting open SSH and GPG keys.
+v)There add new ssh key and paste the copied ssh key.
+2)Now create a local repo folder in local machine and connect that with github through writing these commands in 
+cmd of loacl repo :-
+i)First config your local pc by running commands 
+   a)git config --global user.name "xyz@mail.com".
+   b)git config --global user.email "xyz".
+then connect after writing these command :-  
+ii) git init
+iii) git add .
+iv) git commit -m "message"
+v) git remote add origin git@github.comXYZ(profile and repo name )
+vi) git push
+
+Now your local repo is connected and data are pushed to your remote repo . 
