@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet " type="text/css" href="f_class.css" />
+    <title>First_Class</title>
+</head>
+<body >
+    <p> Hello world</p>
+    <p>This is my first HTML class.</p>
+    <p>First impression is not always the right impression.  </p>
+    <center><h1>My first web page</h1></center>
+    <center><a href="//www.google.com" target="_blank">This is Link</a> <br>
+    <img src="anime.jpg" alt="Image Not Found" width="200"height="150"/><br>
+    <a href="//www.lapy.com" target="_blank">
+        <img src="download.jpg" alt="laptop" width="200" height="150" />
+    </a>
+    </center>
+    <h1>Unordered List</h1>
+    <ul type="square">
+        <li type="circle"> Test Cricket</li>
+        <li type="disc"> ODI Cricket</li>
+        <li> T20 Cricket</li>
+                  
+    </ul>
+    <h1> Ordered List</h1>
+    <ol type="A"start="11">
+        <li>India</li>
+        <li>Australia</li>
+        <li>England</li>
+    </ol>
+    <h1>Defination List</h1>
+    <dl><ol>
+        <dt><li>Rohit</li></dt>
+        <dd>Right Hand Batsman</dd>
+        <dt><li>Boult</li></dt>
+        <dd>Left hand Bowler</dd>
+        <dt><li>Deepak Hooda</li></dt>
+        <dd>All Rounder</dd>
+    </ol></dl>
+    <center>
+        <h1>Table</h1>
+    <table border="13"bgcolor="coral"cellpadding="10"cellspacing="10">
+        <tr>
+            <th>Player1</th>
+            <th>Player2</th>
+            <th>Player3</th>
+        </tr>
+        <tr>
+            <td>Rohit</td>
+            <td>Virat</td>
+            <td>Dhoni</td>
+        </tr>
+        <tr>
+            <td>240</td>
+            <td>112</td>
+            <td>300</td>
+        </tr>
+    </table>
+        </center>
+    <br>
+    <br>
+    <br>
+    <center>
+        <table border="3" cellpadding="15">
+            <tr>
+                <td>1</td>
+                <td colspan="3">2</td>
+            </tr>
+            <tr>
+                <td rowspan="3">3</td>
+                <td bgcolor="red">4</td>
+                <td bgcolor="red">5</td>
+                <td rowspan="2" bgcolor="lightgreen">6</td>
+            </tr>
+            <tr>
+
+                <td bgcolor="red">7</td>
+                <td bgcolor="red">8</td>
+
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="lightgreen">9</td>
+                <td bgcolor="lightgreen">10</td>
+            </tr>
+        </table>
+        <br />
+        <br />
+
+        <br /><br /><br />
+        <nav>
+            <a href="httpswww.google.com">Google</a> |
+            <a href="www.facebook.com">Facebook</a>  |
+            <a href="www.viki.com">Viki Rakuten</a>  |
+        </nav>
+        <br />
+        <br />
+        <fieldset>
+            <legend>Login Page</legend>
+            <h1>Don't have an account.. want to join us..</h1>
+            <table bgcolor="lightgreen" cellpadding="17">
+                <form>
+                <tr>
+                    <td>
+                        <label for="name">First Name: </label>
+                        <input type="text" id="name" name="FirstName" placeholder="First Name" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="name">Last Name :</label>
+                        <input type="text" id="name" name="LastName" placeholder="Last Name" required name="Lname" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required name="Email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pnum">Phone Number :</label>
+                        <input type="number" id="pnum" name="pnum" placeholder="Phone Number" required name="pnum" required max="10" required min="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Gender">Gender  </label>
+                        <input type="radio" id="male" name="male" value="Male" />
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="female" value="Female" />
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="other" value="other" />
+                        <label for="other">Other</label><br /><br />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for=" city">Select city   </label>
+                        <select name="city" id=" city">
+                            <option value="Delhi NCR">Delhi NCR</option>
+                            <option value="Noida">Noida</option>
+                            <option value="Gurgaon">Gurgaon</option>
+                            <option value="Dwarka">Dwarka</option>
+                        </select><br /><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Address :</label>
+                        <textarea id="address" name="address" placeholder="Address" />
+
+
+
+
+
+                        </textarea>
+                    </td>
+                    <br />
+                    <br />
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password :</label>
+                        <input type="password" id="password" name="Password" />
+                    </td>
+                    <br />
+                    <br />
+                </tr>
+                <tr>
+                    <td>
+                        <label for="select">Select file: </label>
+                        <input type="file" id="select" name="file" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="consent" name="consent" value="consent" />
+                        <label for="consent">I have read the required documents..</label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Submit" name="submit" value="Submit" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+                        <input type="Reset" name="reset" value="Reset" />
+                    </td>
+
+                </tr>
+
+                </form>
+            </table>
+        </fieldset>
+        
+        <table border="1"   cellpadding="15">
+            <tr>
+                
+                <td width="45px" height="20px" colspan="2" ></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td width="9px" height="20px"></td>
+                <td colspan="4"></td>
+            </tr>
+            <tr>
+
+                <td  height="20px" colspan="5"></td>
+                
+
+            </tr>
+            <tr>
+                <td height="40px" colspan="5" rowspan="2"></td>
+            
+            </tr>
+            
+        </table>
+
+    </center>
+</body>
+</html>
